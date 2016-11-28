@@ -1,0 +1,87 @@
+body{
+
+	font-family: arial, sans-serif;
+	
+}
+#nav{
+
+	width:1350px;
+	height: 800px;
+	background: url(bg0.jpg);
+	background-size: cover;
+}
+#navlo{
+
+	text-align: center;
+	width:1350px;
+	height: 800px;
+	background : url(admin.jpg);
+	background-size: cover;
+	position: fixed;
+	margin-top: 0px;
+	color: red;
+
+}
+
+#nav_wrapper{
+	text-align: center;
+	height: 80px;
+	width: 1350px;
+	background: #FF4500;
+	margin-top: 0px;
+	margin: 0px;
+	position: fixed;
+	opacity: 0.7;
+	filter: alpha(opacity=70); /*IE8 earlier*/
+
+}
+
+#nav_wrapper ul li{
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px;
+
+}
+#nav_wrapper a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+#nav_wrapper ul li:hover{
+	background: red;
+	transition: all 0.45s;
+	opacity: 0.9;
+	filter: alpha(opacity=90); /*IE8 earlier*/
+}
+
+.header{
+		text-align: center;
+	height: 100px;
+	width: 1350px;
+	background: #FF4500;
+	margin-top: 0px;
+	margin: 0px;
+	position: fixed;
+	opacity: 0.7;
+	filter: alpha(opacity=70); /*IE8 earlier*/
+
+
+}
+
+#caption{
+	color: red;
+}
+#caption2{
+	color: red;
+	font-family: ;
+}
+
+#errmsg{
+	margin-top: 50px;
+	color: red;
+	font-size: 20px;
+}
+
+
